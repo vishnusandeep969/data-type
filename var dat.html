@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>variable.js – The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/beige.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+                <section data-background="https://static.slid.es/reveal/image-placeholder.png">
+                    <h2>JavaScript</h2>
+                    <ul>
+						<li>Variables</li>
+						<li>Data types</li>
+						<li>Assignment operators</li>
+                    </ul>
+                    
+                </section>
+
+                <section>
+					<h2>variable JavaScript</h2>
+					<ul>
+                        <li> are used to store information to be referenced & manipulated in a computer program.</li>
+                        <li>In programming, a variable is a value that can be changed depending on the conditions or information being passed to the program.</li>
+                        <li>Variables can be thought of as named containers. You can place data into these containers and then refer to the data simply by naming the container. </li>
+                        <li>Before you use a variable in a JavaScript program, you must declare it. Variables are declared with the var keyword</li>
+                        <li>You can also declare multiple variables with the same var keyword </li></ul>
+						
+					
+				</section>
+                <section>
+					<h2>Declaring JavaScript Variable</h2>
+					<ul>
+						<li>Var a;</li>
+						<li>Var name;</li>
+						<li>Var carName;</li>
+                    </ul>
+                    <h2>Assign value to the Variable  </h2>
+                    <ul>
+						<li>Var a =5;</li>
+						<li>Var name = “Angel”;</li>
+						<li>Var carName=“Aston”;</li>
+                    </ul>
+                </section>
+
+
+                	
+				</section>
+                <section>
+					<h3>In this example, x, y, and z, are variables, declared with the var keyword:</h3>
+					<ul>
+						<li>var x = 5;></br>
+						    var y = 6;</br>
+						    var z = x + y;</li>
+                    
+                    
+						<ol>  x stores the value 5</ol>
+						<ol>  y stores the value 6</ol>
+						<ol>  z stores the value 11</ol>
+                    </ul>
+
+                    <p>
+						For Ref: <a href="https://jsfiddle.net/Vishnu969/ar6dj8og/" target="_blank">https://jsfiddle.net/Vishnu969/ar6dj8og/
+                    </a>.
+					</p>
+                </section>
+
+				
+                <section data-background="https://static.slid.es/reveal/image-placeholder.png">
+                    <h2>Data types</h2>
+
+				</section>
+
+				
+                <section>
+					<h2>Data types</h2>
+					<ul>
+                    <li> Data types are basically type of data that can be used and manipulated in a program.</li>
+                    <li>For e.g. Numbers(1, 2,3), string(“hello World”),Boolean(true, false) etc. </li>
+                    <li>To be able to operate on variables, it is important to know something about the type.</li>
+                    <li>Without data types, a computer cannot safely solve.</li>
+                    <li>When adding a number and a string, JavaScript will treat the number as a string.</li>
+					<li>JavaScript evaluates expressions from left to right.</li>
+                     </ul>
+						
+					
+				</section>
+
+
+			</section>
+
+			<section>
+				<img src="pic1.jpg">
+			</section>
+			<section>
+				<img src="datatype 1.png">
+			</section>
+
+			<section>
+				<h3>Example</h3>
+				<ul>
+				<li>var x;           // Now x is undefined</br>
+					x = 5;           // Now x is a Number</br>
+					x = "John";      // Now x is a String
+				</ul>
+
+				<p>
+					For Ref: <a href="https://jsfiddle.net/Vishnu969/a9kzygun/1/"
+					target="_blank">https://jsfiddle.net/Vishnu969/a9kzygun/1/
+				</a>
+				</p>
+			</section>
+
+
+			
+			
+
+			</div>
+
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/search/search.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+
+			// Also available as an ES module, see:
+			// https://revealjs.com/initialization/
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+			});
+
+		</script>
+
+	</body>
+</html>
